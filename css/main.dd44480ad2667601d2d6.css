@@ -1,0 +1,17 @@
+html {
+  font-size: 18px;
+  font-family: Avenir, sans-serif; }
+  html * {
+    box-sizing: border-box; }
+  html :focus {
+    outline: none; }
+
+body {
+  margin: 0; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+
+/*# sourceMappingURL=main.dd44480ad2667601d2d6.css.map*/
