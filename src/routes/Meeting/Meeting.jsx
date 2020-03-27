@@ -75,7 +75,7 @@ const Meeting = ({ messages, localVideos, peerVideos, joinRoom }) => {
         </PeerVideoContainer>
         <BottomVideoContainer>
           {localVideos.map(video => (
-            <Video key={video.id} autoPlay ref={setVideoSrcObject(video)} />
+            <Video muted key={video.id} autoPlay ref={setVideoSrcObject(video)} />
           ))}
         </BottomVideoContainer>
       </VideoContainer>
